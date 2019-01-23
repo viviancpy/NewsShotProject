@@ -1,0 +1,16 @@
+{
+  "name": "MyNewsShotProject",
+  "version": "1.0.0",
+  "description": "A demo of using Puppeteer, Cloundinary to do screenshot of sites",
+  "main": "snapshot.js",
+  "author": "Vivian Chan",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --require dotenv/config snapshot.js"
+  },
+  "dependencies": {
+    "cloudinary": "^1.13.2",
+    "dotenv": "^6.2.0",
+    "puppeteer": "^1.11.0"
+  }
+}
